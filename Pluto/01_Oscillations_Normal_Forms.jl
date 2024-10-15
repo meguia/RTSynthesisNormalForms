@@ -44,7 +44,6 @@ function vreed!(du,u,p,t)
 end    
 
 # ╔═╡ fca48a5c-d1f0-4069-85c9-71c6b612b25f
-# Para la Figura 1
 begin
 	k = 2.0
 	μ = 0.4
@@ -73,7 +72,6 @@ begin
 	plot!(plt2,xlabel="",ylabel="",border=:none)
 	annotate!(plt2,-1, 1, text("b)", :black,:24))
 	plt = plot(plt1,plt2,layout = (1, 2),size=(900,300))
-	#savefig(plt, "fig1.eps")
 end	
 
 # ╔═╡ 693a9e83-14c6-44ff-8c3a-2c73dcc38b19
